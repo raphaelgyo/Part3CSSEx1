@@ -8,9 +8,10 @@ header.page-header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Arial;
+  /* font-family: Arial; */
+  font-family: 'Cinzel Decorative', cursive;
   font-weight: bold;
-  font-size: 200%;
+  font-size: 300%;
 }
 header {
   height: 100px;
@@ -19,19 +20,19 @@ footer {
   height: 80px;
   padding-top: 30px;
   text-align: center;
-  background-color: #C5C5C5;
+  background-color: #FF6F61;
   border-top: 2px solid #AAA;
 }
 body {
   font-family: 'Century Gothic', Calibri, serif;
-  font-size: 13px;
+  font-size: 14px;
   margin: 0px;
   padding: 0px;
-  background-color: #E84C53;
+  background-color: #F5D6C6;
 }
 nav {
   width: 100%;
-  background-color: #25434B; /*#2DABE3*/
+  background-color: #77212E; /*#2DABE3*/
 }
 ul {
   margin: 0px;
@@ -47,12 +48,13 @@ a {
   display: inline-block;
   text-decoration: none;
   padding: 20px 30px;
-  color: #FFF;
+  color: #F5D6C6;
   text-transform: uppercase;
   font-size: 15px;
 }
+/* HOVER BUTTONS */
 .menu-ind1:hover {
-  border-top: 5px solid #4C8;
+  border-top: 5px solid #44CC88;
   background-color: RGBa(64, 200, 130, 0.15);
 }
 .menu-ind2:hover {
@@ -73,6 +75,7 @@ nav li:hover a {
 input {
   margin: .4rem 0;
 }
+/* SEARCH BAR */
 ::placeholder {
   font-style: italic
 }
@@ -81,11 +84,16 @@ input {
   align-items: center;
 }
 #maRecherche, button {
-  border-radius: 20px;
+  border-radius: 25px;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 16px;
 }
 #presentation {
-  color: #FFFFFF;
-  background-color: #4CC6EB;
+  color: #F5D6C6;
+  background-color: #9B1B30;
   padding: 10px 30px;
 }
 article {
@@ -98,7 +106,7 @@ article {
 h2 {
   color: #0F0F0F;
   font-weight: bold;
-  font-family: 'Century Gothic', Calibri, serif;
+  font-family: 'Cinzel Decorative', cursive;
   font-size: 30px;
 }
 .imageSize {
