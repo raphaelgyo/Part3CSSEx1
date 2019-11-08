@@ -118,6 +118,9 @@ img{
   width: 100%;
 }
 .column {
-  /* display: flex; */
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start; */
   padding: 10px 30px;
 }
